@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Health Track 1.4 - Dashbord</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Menu -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle" style="padding-top: 10px; padding-bottom: 10px;"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn btn-lg pull-right toggle"><i class="fa fa-times" ></i></a>
+            <li class="sidebar-brand">
+                <a href="#painel" onclick=$("#menu-close").click();>Home</a>
+            </li>
+            <li>
+                <a href="#cadastrar" onclick=$("#menu-close").click();>Cadastrar Alimentos</a>
+            </li>
+            <li>
+                <a href="#atividade" onclick=$("#menu-close").click();>Cadastrar atividades</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick=$("#menu-close").click();>Informaçoes Pessoais</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick=$("#menu-close").click();>Smart Personal</a>
+            </li>
+            <li>
+                <a href="#iniciaratividade" onclick=$("#menu-close").click();><b><font color="#90EE90">Iniciar atividade</font></b></a>
+            </li>
+            <li>
+                <a href="index.html#"><b><font color="#FF3030">SAIR</font></b></a>
+            </li>
+
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id= "painel" class="header">
+        <div class="toggle">
+            <h1>Bem Vindo : <b>Vanderlei Veloso Junior</b></h1> 
+            <div class="row">
+                <div id="graficos" class="col-md-2 col-md-offset-1">
+                    <img src="img/calorias.jpg">         
+                </div>
+                <div id="graficos" class="col-md-3 col-md-offset-4">
+                    <img src="img/peso.jpg">
+                </div>
+            </div>
+            <div class="row">
+                <div id="graficos" class="col-md-2 col-md-offset-1">
+                    <img src="img/kcal.jpg">         
+                </div>
+                <div id="graficos" class="col-md-3 col-md-offset-4">
+                    <img src="img/metas.jpg">
+                </div>
+            </div>        
+            <br>
+            
+        </div>
+    </header>
+
+
+
+    <!-- Cadastrar Alimentos -->
+    <section id="cadastrar" class="header">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-10 col-md-offset-1">
+                    <h2><b><font color="#FFFFFF">Cadastrar Alimentos</font></b></h2>
+                    <hr class="small">
+                    <h3><font color="#FFFFFF">Kcal Diarias</font></h3>
+                   <div class="progress">
+                      <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+                        <span class="sr-only">45% Complete</span>
+                      </div>
+                    </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4><font color="#FFFFFF"><b>Carboidratos 10g</b></font></h4>
+                    </div>
+                    <div class="col-md-4">
+                        <h4><font color="#FFFFFF"><b>Proteinas 10g</b></font></h4>
+                    </div>
+                    <div class="col-md-4">
+                        <h4><font color="#FFFFFF"><b>Gorduras 10g</b></font></h4>
+                    </div>
+                </div>
+                    <div class="row" style="padding-top: 100px;">
+                        <div class=" col-md-4">
+                            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Café da Manhã</button>
+                        </div>
+                        <div class=" col-md-4">
+                            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Lanche da Manhã</button>
+                        </div>
+                        <div class=" col-md-4">
+                            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Almoço</button>
+                        </div>
+                    </div>
+                    <div class="row" style="padding-top: 200px;">
+                        <div class=" col-md-4">
+                                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Lanche da Tarde</button>
+                        </div>
+                        <div class=" col-md-4">
+                            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Jantar</button>
+                        </div>
+                        <div class=" col-md-4">
+                            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Ceia</button>
+                        </div>
+                    </div>
+
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Digite seus alimentos</h4>
+                      </div>
+                      <div class="modal-body">
+                        <form>
+                          <div class="form-group">
+                            <label for="recipient-name" class="control-label">Liquidos:</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                          </div>
+                          <div class="form-group">
+                            <label for="message-text" class="control-label">Solidos:</label>
+                            <textarea class="form-control" id="message-text"></textarea>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                        <button type="button" class="btn btn-primary">Adicionar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Cadastrar Atividades -->
+    <aside id="atividade" class="callout">
+                <div  id="catividades"  class="container">
+                 <form class="form-horizontal">
+                      <div class="form-group form-group-md" style="padding-right: 30px;">
+                        <div class="col-md-offset-5 col-md-4 ">
+                          <input class="form-control" type="text" id="formGroupInputLarge" placeholder="Data de hoje" style="width: 200px;">
+                        </div>
+                      </div>
+                    </form>
+            <div class="row text-center">
+                <div class="col-md-10 col-md-offset-1">
+                    <h2><b><font color="#FFFFFF">Cadastrar Atividades</font></b></h2>
+                    <hr class="small">
+                    <h3><font color="#FFFFFF">Meta de Kcal Diaria</font></h3>
+                   <div class="progress">
+                      <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 20%" >
+                        <span class="sr-only">20% Complete</span>
+                      </div>
+                    </div>
+        </div>
+            <div class="btn-group">
+              <button type="button" class="btn btn-warning">Atividade Fisica</button>
+              <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="caret"></span>
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="#">Caminhada</a></li>
+                <li><a href="#">Treino em academia</a></li>
+                <li><a href="#">Corrida</a></li>
+                <li><a href="#">Bicicleta</a></li>
+              </ul>
+            </div>        
+            <div class="row">
+              <div class="col-md-offset-5 col-md-2">
+                <div class="input-group">
+                  <span class="input-group-addon">
+                    <input type="checkbox" aria-label="...">
+                  </span>
+                  <input type="text" class="form-control" aria-label="..." placeholder="Nome da atividade">
+                </div><!-- /input-group -->
+              </div><!-- /.col-lg-6 -->            
+            </div>
+            <div class="row">
+              <div class="col-md-offset-5 col-md-2">
+                <div class="input-group">
+                  <span class="input-group-addon">
+                    <input type="checkbox" aria-label="...">
+                  </span>
+                  <input type="text" class="form-control" aria-label="..." placeholder="Tempo de atividade(em min)">
+                </div><!-- /input-group -->
+              </div><!-- /.col-lg-6 -->            
+            </div>  
+            <div class="row">
+              <div class="col-md-offset-5 col-md-2">
+                <div class="input-group" style="padding-bottom: 20px">
+                  <span class="input-group-addon">
+                    <input type="checkbox" aria-label="...">
+                  </span>
+                  <input type="text" class="form-control" aria-label="..." placeholder="Calorias">
+                </div><!-- /input-group -->
+              </div><!-- /.col-lg-6 -->            
+            </div> 
+                <button type="button" class="btn btn-success" padding-top><B>ADICIONAR</B></button>
+
+    </aside>
+
+    <!-- Smart Personal -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row" style="padding-top: 250px;">
+                <div class="col-md-10 col-md-offset-1 text-center">
+                    <h2><b>Smart Personal</b></h2>
+                    <hr class="small">
+                    <div class="row">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Criar Planilha Alimentar Smart</button>
+
+                        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                          <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                              <h2><font color="#1C1C1C">
+                              Café da manhã
+                              </font></h2>
+                              <h3><font color="#1C1C1C">
+                              -</br>
+                              -</br>
+                              -</br>
+                              </font></h3>
+                              <h2><font color="#1C1C1C">
+                              Lanche da Manhã
+                              </font></h2>
+                              <h3><font color="#1C1C1C">
+                              -</br>
+                              -</br>
+                              -</br>
+                              </font></h3>
+                              <h2><font color="#1C1C1C">
+                              Almoço
+                              </font></h2>
+                              <h3><font color="#1C1C1C">
+                              -</br>
+                              -</br>
+                              -</br>
+                              </font></h3>
+                              <h2><font color="#1C1C1C">
+                              Lanche da Tarde
+                              </font></h2>
+                              <h3><font color="#1C1C1C">
+                              -</br>
+                              -</br>
+                              -</br>
+                              </font></h3>
+                              <h2><font color="#1C1C1C">
+                              Jantar
+                              </font></h2>
+                              <h3><font color="#1C1C1C">
+                              -</br>
+                              -</br>
+                              -</br>
+                              </font></h3>
+                              <h2><font color="#1C1C1C">
+                              Ceia
+                              </font></h2>
+                              <h3><font color="#1C1C1C">
+                              -</br>
+                              -</br>
+                              -</br>
+                              </font></h3>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>          
+            </div>
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 text-center" style="padding-top: 250px;">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Criar Planinha de Treinos Smart</button>
+
+                    <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                      <div class="modal-dialog modal-sm" role="document">
+                        <div class="modal-content">
+                          <h2><font color="#1C1C1C">
+                              Treinamento <b><font color="#FF0000">A</font></b>
+                              </font></h2>
+                              <h3><font color="#1C1C1C">
+                              -</br>
+                              -</br>
+                              -</br>
+                              </font></h3>
+                              <h2><font color="#1C1C1C">
+                              Treinamento <b><font color="#FF0000">B</font></b>
+                              </font></h2>
+                              <h3><font color="#1C1C1C">
+                              -</br>
+                              -</br>
+                              -</br>
+                              </font></h3>
+                              <h2><font color="#1C1C1C">
+                              Treinamento <b><font color="#FF0000">C</font></b>
+                              </font></h2>
+                              <h3><font color="#1C1C1C">
+                              -</br>
+                              -</br>
+                              -</br>
+                              </font></h3>
+                        </div>
+                      </div>
+                    </div> 
+                </div>
+                
+            </div>
+        </div>
+
+    </section>
+    <!-- Iniciar Atividade -->
+    <section id="iniciaratividade" class="itstime">
+        <div class="row">
+          <div class="col-md-offset-4 col-md-4 text-center">
+              <h1><font><b>Comece a se exercitar!!</b></font></h1>
+          </div>
+        </div>
+        <div class="row">
+                          <div class="">
+              <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="padding-left: 330px; background-color: #FFFFFF;">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                    <a href="#"><img src="img/treino.jpg" alt="" style="padding-top: 20px;padding-left: 250px; width "></a>
+                    <div class="carousel-caption">
+                      <h2 style="padding-right:300px;">Treino</h2>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <a href="#"><img src="img/peito.png" alt="" style=" padding-top:20px; padding-left: 250px; width: 620px; height: 465px;"></a>
+                    <div class="carousel-caption">
+                      <h2 style="padding-right:300px;">Treino de Peito</h2>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <a href="#"><img src="img/perna.jpg" alt="" style=" padding-left: 250px; padding-top: 20px;  width width: 620px; height: 465px;"></a>
+                    <div class="carousel-caption">
+                      <h2 style="padding-right:300px;">Treino de Perna</h2>
+                    </div>
+                  </div>
+                  ...
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>              
+                          </div>
+          
+        </div>
+ 
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Health Track</strong>
+                    </h4>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; Health Track 2017</p>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function() {
+                    $('#to-top').css({
+                        position: 'fixed',
+                        display: 'block'
+                    });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function() {
+                    $('#to-top').css({
+                        display: 'none'
+                    });
+                });
+            }
+        }
+    });
+    // Disable Google Maps scrolling
+    // See http://stackoverflow.com/a/25904582/1607849
+    // Disable scroll zooming and bind back the click event
+    var onMapMouseleaveHandler = function(event) {
+        var that = $(this);
+        that.on('click', onMapClickHandler);
+        that.off('mouseleave', onMapMouseleaveHandler);
+        that.find('iframe').css("pointer-events", "none");
+    }
+    var onMapClickHandler = function(event) {
+            var that = $(this);
+            // Disable the click handler until the user leaves the map area
+            that.off('click', onMapClickHandler);
+            // Enable scrolling zoom
+            that.find('iframe').css("pointer-events", "auto");
+            // Handle the mouse leave event
+            that.on('mouseleave', onMapMouseleaveHandler);
+        }
+        // Enable map zooming with mouse scroll when the user clicks the map
+    $('.map').on('click', onMapClickHandler);
+    </script>
+
+</body>
+
+</html>

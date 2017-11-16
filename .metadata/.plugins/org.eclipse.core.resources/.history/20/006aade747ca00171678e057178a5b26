@@ -1,0 +1,79 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<scritp>
+
+
+
+</scritp>
+<head>   
+    <!--  meta http-equiv="X-UA-Compatible" content="IE=edge"-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+    <title>Health Track 1.8  </title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+<% 
+
+%>
+    <!-- Navigation -->
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="container">
+        <div class="card card-container" style=" align-content: center; vertical-align: middle; margin-top: 200px;">
+            <!-- <img class="profile-img-card" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" alt="" /> -->
+            <img src="img/logo.png" style="padding-left: 18%;">
+            <form class="form-signin" action="painel.jsp">
+                <span id="reauth-email" class="reauth-email"></span>
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email ou login" required autofocus>
+                <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
+                <div id="remember" class="checkbox">
+                    <label>
+                        <input type="checkbox" value="remember-me"> Guardar informaçôes
+                    </label>
+                </div>
+               <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Entrar</button>
+            </form><!-- /form -->
+            <a href="esqueciasenha.html" class="forgot-password">
+                Esqueceu a senha ? </br >
+            </a>
+            <a href="cadastro.html" class="forgot-password">
+                Cadastrar </br >
+            </a>
+                    <a href="#">Termos de Uso</a>
+                    <a href="#">Fale Conosco</a>
+                    <ul class="list-unstyled">
+                    </ul>
+                    <br>
+                    <p  style="text-align: center;" class="text-muted">Copyright &copy; Health  2017</p>
+        </div><!-- /card-container -->
+    </div><!-- /container -->
+    </header>   
+</body>
+
+</html>

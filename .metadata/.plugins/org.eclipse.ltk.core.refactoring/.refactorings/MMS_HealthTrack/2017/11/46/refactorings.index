@@ -4,3 +4,10 @@
 1510769097015	Move 'img' to 'WebContent'
 1510769110886	Move 5 resources to 'WebContent'
 1510769117412	Delete element
+1510769275640	Rename resource 'cadastro.html'
+1510769287797	Rename resource 'esqueciasenha.html'
+1510769297769	Rename resource 'index.html'
+1510769319026	Rename resource 'painel.html'
+1510769772267	Delete element
+1510770874648	Delete element
+1510779291993	Rename resource 'validadeUsuario.jsp'

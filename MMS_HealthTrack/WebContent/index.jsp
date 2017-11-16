@@ -51,7 +51,7 @@
             <form class="form-signin" action="validaUsuario.jsp" method="post" >
                 <span id="reauth-email" class="reauth-email"></span>
                 <input type="email" id="inputEmail" name="inputEmail" class="form-control" placeholder="Email ou login" required autofocus>
-                <input type="password" id="inputPassword" name="inputEmail" class="form-control" placeholder="Senha" required>
+                <input type="password" id="inputPassword" name="inputPassword" class="form-control" placeholder="Senha" required>
                 <div id="remember" class="checkbox">
                     <label>
                         <input type="checkbox" value="remember-me"> Guardar informaçôes
@@ -70,7 +70,7 @@
                     <ul class="list-unstyled">
                     </ul>
                     <br>
-                    <p  style="text-align: center;" class="text-muted">Copyright &copy; Health  2017</p>
+                    <p  style="text-align: center;" class="text-muted">Copyright &copy;MMS Health  2017</p>
         </div><!-- /card-container -->
     </div><!-- /container -->
     </header>   

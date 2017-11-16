@@ -45,7 +45,7 @@
             <!-- <img class="profile-img-card" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" alt="" /> -->
             <img src="img/logo.png" style="padding-left: 18%;">
             <p id="profile-name" class="profile-name-card">Recuperar senha</p>
-            <form class="form-signin">
+            <form class="form-signin" action="emailEnviado.jsp">
                 <span id="reauth-email" class="reauth-email"></span>
                 <input type="email" id="inputEmail" class="form-control" placeholder="Email" required autofocus>
                 <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Enviar E-mail</button>

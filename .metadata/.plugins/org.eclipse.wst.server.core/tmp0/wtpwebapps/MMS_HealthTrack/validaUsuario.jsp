@@ -12,11 +12,8 @@
 String usu = request.getParameter("inputEmail");
 String senha = request.getParameter("inputPassword");
 
-out.println("usu");
-out.println("senha");
-
 //inserir varivar que serão retornadas na consulta da base no "" para validação 
-	if(usu == "marceloms17@gmail.com" && senha == "123456")
+	if("marceloms17@gmail.com".equals(usu) && "123456".equals(senha))
 	{
 		response.sendRedirect("painel.jsp");
 	}

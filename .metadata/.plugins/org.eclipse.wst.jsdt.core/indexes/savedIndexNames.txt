@@ -2,7 +2,6 @@ INDEX VERSION 1.3+C:\Users\marce\Documents\GitHub\Health-track\.metadata\.plugin
 3686769314.index
 2551756804.index
 2070376515.index
-2649208438.index
 3772401587.index
 3828265736.index
 625095446.index

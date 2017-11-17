@@ -21,7 +21,7 @@
     <link href="resources/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
-    <link rel="shortcut icon" href="resoruce/img/logo.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="resources/img/logo.png" type="image/x-icon" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -70,18 +70,18 @@
             <h1>Bem Vindo</h1> 
             <div class="row">
                 <div id="graficos" class="col-md-2 col-md-offset-1">
-                    <img src="resoruce/img/calorias.jpg">         
+                    <img src="resources/img/calorias.jpg">         
                 </div>
                 <div id="graficos" class="col-md-3 col-md-offset-4">
-                    <img src="resoruce/img/peso.jpg">
+                    <img src="resources/img/peso.jpg">
                 </div>
             </div>
             <div class="row">
                 <div id="graficos" class="col-md-2 col-md-offset-1">
-                    <img src="resoruce/img/kcal.jpg">         
+                    <img src="resources/img/kcal.jpg">         
                 </div>
                 <div id="graficos" class="col-md-3 col-md-offset-4">
-                    <img src="resoruce/img/metas.jpg">
+                    <img src="resources/img/metas.jpg">
                 </div>
             </div>        
             <br>
@@ -365,19 +365,19 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                   <div class="item active">
-                    <a href="#"><img src="resoruce/img/treino.jpg" alt="" style="padding-top: 20px;padding-left: 250px; width "></a>
+                    <a href="#"><img src="resources/img/treino.jpg" alt="" style="padding-top: 20px;padding-left: 250px; width "></a>
                     <div class="carousel-caption">
                       <h2 style="padding-right:300px;">Treino</h2>
                     </div>
                   </div>
                   <div class="item">
-                    <a href="#"><img src="resoruce/img/peito.png" alt="" style=" padding-top:20px; padding-left: 250px; width: 620px; height: 465px;"></a>
+                    <a href="#"><img src="resources/img/peito.png" alt="" style=" padding-top:20px; padding-left: 250px; width: 620px; height: 465px;"></a>
                     <div class="carousel-caption">
                       <h2 style="padding-right:300px;">Treino de Peito</h2>
                     </div>
                   </div>
                   <div class="item">
-                    <a href="#"><img src="resoruce/img/perna.jpg" alt="" style=" padding-left: 250px; padding-top: 20px;  width width: 620px; height: 465px;"></a>
+                    <a href="#"><img src="resources/img/perna.jpg" alt="" style=" padding-left: 250px; padding-top: 20px;  width width: 620px; height: 465px;"></a>
                     <div class="carousel-caption">
                       <h2 style="padding-right:300px;">Treino de Perna</h2>
                     </div>
@@ -429,10 +429,10 @@
     </footer>
 
     <!-- jQuery -->
-    <script src="resoruce/js/jquery.js"></script>
+    <script src="resources/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="resoruce/js/bootstrap.min.js"></script>
+    <script src="resources/js/bootstrap.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script>

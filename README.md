@@ -2,7 +2,7 @@
 
 # 🏥 Health-track
 
-Sistema web desenvolvido para o Tech Challenge da graduação, com o objetivo de auxiliar no acompanhamento de dados de saúde de usuários. O projeto foi desenvolvido utilizando tecnologias web como Java, JavaScript, HTML e CSS.
+Sistema web desenvolvido para o Tech Challenge da graduação Fiap, com o objetivo de auxiliar no acompanhamento de dados de saúde de usuários. O projeto foi desenvolvido utilizando tecnologias web como Java, JavaScript, HTML e CSS.
 
 ---
 
